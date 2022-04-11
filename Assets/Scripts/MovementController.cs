@@ -5,7 +5,7 @@ public class MovementController : MonoBehaviour {
 
     private CharacterController controller;
 
-    void Start() {
+    void OnEnable() {
         controller = GetComponent<CharacterController>();
     }
 

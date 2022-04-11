@@ -5,7 +5,7 @@ public class CameraController : MonoBehaviour {
 
     private float xRotation;
 
-    private void Start() {
+    private void OnEnable() {
         Cursor.lockState = CursorLockMode.Locked;
         xRotation = transform.localEulerAngles.x;
     }
